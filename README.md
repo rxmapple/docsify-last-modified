@@ -35,7 +35,7 @@ lastModified.repo
 > 注意：repo必须填写，否则会显示默认的{docsify-updated}参数。
 
 lastModified.basePath
-* 默认: docs
+* 默认: docs/
 * 类型: String
 * 描述: 站点所在路径
 

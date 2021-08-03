@@ -25,8 +25,9 @@ var install = function (hook, vm) {
             fetch(date_url).then((response) => {
               return response.json();
             }).then((commits) => {
-              var modifiedtime = commits[0]['commit']['committer']['date'];
-              time = tinydate(CONFIG.dateFormat)(new Date(modifiedtime));
+                if (commits.length > 0) {
+                    time = tinydate(CONFIG.dateFormat)(new Date(commits[0]['commit']['committer']['date']));
+                }
               document.getElementById('last-modified').textContent = CONFIG.preString + time;
             });
         } else {

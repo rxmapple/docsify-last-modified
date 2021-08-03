@@ -2,7 +2,14 @@
 
 > 基于Docsify的最后修改时间插件(解决docsify-updated 部署在github pages时间相同的问题)
 
+
+### Demo
+
+[Demo](https://rxmapple.github.io/docsify-last-modified/example)
+
+
 ### 特性
+
 - 🎉 支持定义显示位置
 - 🎉 支持定义前缀文本
 - 🎉 支持定义时间格式
@@ -12,7 +19,7 @@
 1. 在 index.html 中引入脚本
 ```html
 <script src="//cdn.jsdelivr.net/npm/tinydate@1.3.0/dist/tinydate.min.js"></script>
-<script src="//cdn.jsdelivr.net/gh/rxmapple/docsify-last-modified@master/src/docsify-last-modified.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rxmapple/docsify-last-modified@main/src/docsify-last-modified.js"></script>
 
 ```
 
